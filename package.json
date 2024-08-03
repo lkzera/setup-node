@@ -1,0 +1,22 @@
+{
+  "name": "example-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "lint-staged": "^13.0.3",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^9.1.4",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
